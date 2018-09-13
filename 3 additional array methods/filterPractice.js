@@ -28,5 +28,19 @@ var athletes = [
 ]
 
 //Filter OUT all athletes with wits 5 or higher
+let athletesWit = athletes.filter(function(athlete){
+    return athlete.wits < 4;
+})
+athletesWit 
 //Filter IN all athletes with a strength higher than 6
+let athletesStr = athletes.filter(function(athlete){
+    return athlete.strength > 4;
+})
+athletesStr
 //Filter OUT all althletes that don't have Guy in their name
+let athletesGuy = athletes.filter(function(athlete, i){
+        return athlete.name.includes('Guy');
+        
+    
+})
+athletesGuy 

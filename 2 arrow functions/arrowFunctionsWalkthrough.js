@@ -1,7 +1,7 @@
 // * arrow functions
 // one line Arrow functions 
 
-function add(x, y){
+function add(x, y) {
     return x + y;
 } // Is the same as
 
